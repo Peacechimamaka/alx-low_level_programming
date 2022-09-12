@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /*
  * main - prints all the numbers of base 16 in lowercase.
  *
@@ -8,7 +7,7 @@
 int  main(void)
 {
 	int num;
-	char letter;
+	int letter;
 
 	for (num = 0; num < 10; num++)
 	{
