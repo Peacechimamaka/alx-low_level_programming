@@ -8,7 +8,7 @@
 int  main(void)
 {
 	int num;
-	char letter;
+	int letter;
 
 	for (num = 0; num < 10; num++)
 	{
