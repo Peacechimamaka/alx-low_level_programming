@@ -18,6 +18,6 @@ _putchar((j / 10) + 48);
 _putchar((j % 10) + 48);
 }
 _putchar('\n');
-i++
+i++;
 }
 }
