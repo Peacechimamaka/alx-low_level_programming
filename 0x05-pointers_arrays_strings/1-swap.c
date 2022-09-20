@@ -1,17 +1,15 @@
-nclude "main.h"
+#include "main.h"
 
 /**
- *
- *  * swap_int - swaps value
- *
- *   * @a: params
- *
- *    * @b: params
- *
- *     */
+ *swap_int - swaps value
+ *@a: params
+ *@b: params
+ *Return: returns nothing
+ */
 void swap_int(int *a, int *b)
 {
 int tmp = *a;
+
 *a = *b;
 *b = tmp;
 }
