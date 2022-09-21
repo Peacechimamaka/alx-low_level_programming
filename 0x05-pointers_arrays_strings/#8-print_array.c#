@@ -1,221 +1,5 @@
 
-Haha :rolling_on_the_floor_laughing::rolling_on_the_floor_laughing::joy:
-
-00:05
-
-Innocent abeg leave me ooh
-
-
-
-
-
-Innocent Dude
-
-00:05
-
-#include "main.h"
-
-/**
-
- * _puts - pusts to stdout
-
- * @str: params
-
- */
-
-
-
-void _puts(char *str)
-
-{
-
-  int i = 0;
-
-
-
-  while (str[i] != '\0')
-
-    {
-
-      _putchar(str[i]);
-
-      i++;
-
-    }
-
-
-
-  _putchar('\n');
-
-}
-
-3
-
-00:06
-
-i know u want to hold my hands but no
-
-
-
-
-
-Treasure Treasure
-
-00:07
-
-I don't have ur tym
-
-
-
-
-
-Innocent Dude
-
-00:09
-
-its obvious who doesnt have time
-
-00:09
-
-#include "main.h"
-
-/**
-
- * print_rev - reverse something
-
- * @s: params
-
- */
-
-
-
-void print_rev(char *s)
-
-{
-
-  int i = 0;
-
-  int j;
-
-
-
-  while (s[i] != '\0')
-
-    {
-
-      i++;
-
-    }
-
-  for (j = i - 1; j >= 0; j--)
-
-    {
-
-      _putchar(s[j]);
-
-    }
-
-  _putchar('\n');
-
-}
-
-4
-
-
-
-
-
-Treasure Treasure
-
-00:11
-
-Haha
-
-00:11
-
-This guy I don't know what I will do to u self
-
-
-
-
-
-Innocent Dude
-
-				       00:13
-
-ladies become confused in the presence of handsome guys
-
-
-
-
-
-Treasure Treasure
-
-				       00:14
-
-Keep deceiving urself
-
-
-
-
-
-Innocent Dude
-
-				       00:14
-
-well its u who deceiving me
-
-				       00:14
-
-am in no 4 already
-
-
-
-
-
-Treasure Treasure
-
-				       00:15
-
-That's what is giving u right to talk
-
-
-
-
-
-Innocent Dude
-
-				       00:15
-
-whats that
-
-
-
-
-
-Treasure Treasure
-
-				       00:17
-
-Because u have reach tasks 4
-
-
-
-
-
-Innocent Dude
-
-				       00:18
-
-thats a little abt me
-
-				       00:18
-
-if i have a goal set before me
-
-00:18
-
-nothing distracts me
+tracts me
 
 
 
@@ -244,127 +28,127 @@ including the ugly face of treasure
 00:19
 
 okay, whats the issue
+  
 
+  
 
-
-
-
+  
 Treasure Treasure
-
+  
   00:19
-
+  
   Should I share screen,?
+  
 
+  
 
-
-
-
+  
 Innocent Dude
-
+  
   00:20
-
+  
 can i be a bit slefish
+  
 
+  
 
-
-
-
+  
 Treasure Treasure
-
+  
   00:20
-
+  
 How?
+  
 
+  
 
-
-
-
+  
 Innocent Dude
-
+  
   00:20
-
+  
 the data i got isnt much
+  
 
+  
 
-
-
-
+  
 Treasure Treasure
-
+  
   00:20
-
+  
 Ooh
-
+  
   00:20
-
+  
 Ok no p
-
+  
   00:21
-
+  
 Let me snap and send
+  
 
+  
 
-
-
-
+  
 Innocent Dude
-
+  
   00:21
-
+  
 can u allow me complete my task so after that u can share screen
+  
 
+  
 
-
-
-
+  
 Treasure Treasure
-
+  
   00:22
-
+  
 Just tell me what to do
-
+  
 IMG_20220920_002145.jpg
+  
 
-
-
+  
 IMG_20220920_002145.jpg
+  
 
+  
 
+  
 
+  
 
-
-
-
-
-
+  
 Innocent Dude
-
+  
   00:22
-
+  
 where is this
+  
 
+  
 
-
-
-
+  
 Treasure Treasure
-
+  
   00:23
-
+  
 That's what I saw where I did emacs and de name of my task zero
+  
 
+  
 
-
-
-
+  
 Innocent Dude
-
+  
   00:23
-
+  
 #include "main.h"
+  
 
-
-
+  
   /**
 
    * rev_string - reverse string
@@ -372,49 +156,49 @@ Innocent Dude
    * @s: param
 
    */
+  
 
-
-
+  
   void rev_string(char *s)
-
+  
   {
-
+    
     int i, size, half;
-
+    
     char first, last;
+    
 
-
-
+    
     i = 0;
-
+    
     while (s[i] != '\0')
-
+      
       {
-
+	
 	i++;
-
+	
       }
-
+    
     size = i - 1;
-
+    
     half = size / 2;
-
+    
     while (half >= 0)
-
+      
       {
-
+	
 	first = s[size - half];
-
+	
 	last = s[half];
-
+	
 	s[half] = first;
-
+	
 	s[size - half] = last;
-
+	
 	half--;
-
+	
       }
-
+    
   }
 
 5
@@ -584,27 +368,27 @@ Innocent Dude
 void puts2(char *str)
 
 {
-
+  
   int i;
+  
 
-
-
+  
   i = 0;
-
+  
   while (str[i] != '\0')
-
+    
     {
-
+      
       if (i % 2 == 0)
-
+	
 	_putchar(str[i]);
-
+      
       i++;
-
+      
     }
-
+  
   _putchar('\n');
-
+  
 }
 
 
@@ -640,47 +424,47 @@ Ok
 00:30
 
 But we will do mine together right?
-
+		 
 		 00:31
-
+		 
 		 Pls :pray: don't say no
+		 
 
+		 
 
-
-
-
+		 
 Innocent Dude
-
+		 
 		 00:32
-
+		 
 okay.....one condition
-
+		 
 		 00:32
-
+		 
 be my gf
+		 
 
+		 
 
-
-
-
+		 
 Treasure Treasure
-
+		 
 		 00:32
-
+		 
 		 Haha :rolling_on_the_floor_laughing::rolling_on_the_floor_laughing::joy:
+		 
 
+		 
 
-
-
-
+		 
 Innocent Dude
-
+		 
 		 00:32
-
+		 
 #include "main.h"
+		 
 
-
-
+		 
 		 /**
 
 		  * puts_half - prints half of a string.
@@ -688,45 +472,45 @@ Innocent Dude
 		  * @str: param
 
 		  */
-
+		 
 		 void puts_half(char *str)
-
+		 
   {
-
+    
     int count = 0, i;
+    
 
-
-
+    
     while (count >= 0)
-
+      
       {
-
+	
 	if (str[count] == '\0')
-
+	  
 	  break;
-
+	
 	count++;
-
+	
       }
+    
 
-
-
+    
     if (count % 2 == 1)
-
+      
       i = count / 2;
-
+    
     else
-
+      
       i = (count - 1) / 2;
+    
 
-
-
+    
     for (i++; i < count; i++)
-
+      
       _putchar(str[i]);
-
+    
     _putchar('\n');
-
+    
   }
 
 
@@ -772,91 +556,91 @@ Innocent Dude
 00:34
 
 well, then i want to die
+  
 
+  
 
-
-
-
+  
 Treasure Treasure
-
+  
   00:34
-
+  
   Haha :rolling_on_the_floor_laughing::rolling_on_the_floor_laughing:
-
+  
   00:35
-
+  
 Not in my hand
-
+  
   00:36
-
+  
 Innocent y dose my profile pics keep changing by itself?
+  
 
+  
 
-
-
-
+  
 Innocent Dude
-
+  
   00:36
-
+  
 so u are a toothless bull dog
-
+  
   00:36
-
+  
 u can bark bt not bite
+  
 
+  
 
-
-
-
+  
 Treasure Treasure
-
+  
   00:36
-
+  
 Lolz
-
+  
   00:36
-
+  
 Thank u sir
+  
 
+  
 
-
-
-
+  
 Innocent Dude
-
+  
   00:37
-
+  
 u are not welcomr
+  
 
+  
 
-
-
-
+  
 Treasure Treasure
-
+  
   00:37
-
+  
 I kn am always welcome
-
+  
   00:37
-
+  
 It's not optional
+  
 
+  
 
-
-
-
+  
 Innocent Dude
-
+  
   00:38
-
+  
 #include "main.h"
-
+  
 #include <stdio.h>
+  
 
-
-
+  
   /**
 
    * print_array - prints array
@@ -866,37 +650,27 @@ Innocent Dude
    * @n: params
 
    */
-
+  
   void print_array(int *a, int n)
-
+  
 {
-
+  
   int i = 0;
+  
 
-
-
+  
   for (; i < n; i++)
-
+    
     {
-
+      
       printf("%d", *(a + i));
-
+      
       if (i != (n - 1))
-
+	
 	printf(", ");
-
+      
     }
-
+  
   printf("\n");
-
-}#include "main.h"
-
-/**
-* reset_to_98 - resets the value of a given integer to 98
-* @n: parameter
-*Return: nothing
-*/
-void reset_to_98(int *n)
-{
-*n = 98;
+  
 }
