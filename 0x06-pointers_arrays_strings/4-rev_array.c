@@ -4,6 +4,7 @@
 * @n: number of elements of the array
 * Return: returns void
 */
+
 void reverse_array(int *a, int n)
 {
 int *start_c, *end_c, c;
