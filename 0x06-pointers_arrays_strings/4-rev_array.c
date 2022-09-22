@@ -6,6 +6,7 @@
 */
 
 void reverse_array(int *a, int n)
+
 {
 int *start_c, *end_c, c;
 int i;
