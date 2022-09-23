@@ -16,7 +16,7 @@ for (i = 0; i < 5; i++)
 {
 if (*(s + count) == lower_case[i] || *(s + count) == upper_case[i])
 {
-*(s + count) = numbers[i];   
+*(s + count) = numbers[i];
 break;
 }
 }
