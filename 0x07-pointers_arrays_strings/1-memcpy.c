@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- *
- * *_memcpy -   copy number bytes form adress "from" to adress "to"
+ *_memcpy -   copy number bytes form adress "from" to adress "to"
  *
  * *@dest: content is to be copied
  *
