@@ -31,7 +31,7 @@ int main(void)
 		}
 		else if (peace < 6)
 		{
-			printf("Last digit of %d is %d and is less than 6\n", n, peace);
+			printf("Last digit of %d is %d and is less than 6 and not 0\n", n, peace);
 		}
 	}
 	return (0);
