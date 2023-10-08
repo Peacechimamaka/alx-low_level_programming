@@ -12,7 +12,7 @@ int main(void)
 {
 	char peace[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	int amaka; 
+	int amaka;
 
 	for (amaka = 0; amaka < 52; amaka++)
 	{
