@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+/**
+ * main - funtion that prints with printf
+ *
+ * Return: 0
+ */
+int main(void)
+{
+	printf("with proper grammer, but the outcome is a piece pf art\n");
+	return (0);
+}
