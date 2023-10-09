@@ -10,9 +10,9 @@ int main(void)
 {
 	int peace, amaka;
 
-	for (peace + 0; peace < 9; peace++)
+	for (peace = 0; peace < 9; peace++)
 	{
-		for (amaka + peace + 1; amaka < 10; amaka++)
+		for (amaka = peace + 1; amaka < 10; amaka++)
 		{
 			putchar((peace % 10) + '0');
 			putchar((amaka % 10) + '0');
