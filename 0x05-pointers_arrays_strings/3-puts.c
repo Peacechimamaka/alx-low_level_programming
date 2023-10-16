@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _puts - a function that prints using putxhar
@@ -7,10 +7,10 @@
 
 void _puts(char *str)
 {
-char x;
+	int x;
 
 for (x = 0; str[x] != '\0'; x++)
-	_putchar (str);
+	_putchar (str[x]);
 		_putchar ('\n');
 }
 
