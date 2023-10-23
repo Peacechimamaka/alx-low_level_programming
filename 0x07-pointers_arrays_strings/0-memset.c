@@ -2,25 +2,11 @@
 
 
 /**
-
-  * _memset - main function of the prototype
-
-  *
-
+  * _memset - main function
   * @b: The value used to fill the memory
-
-  *
-
-  * @s: Function paramater
-
-  *
-
-  * @n: Function parameter
-
-  *
-
-  * Return: s
-
+  * @s: 1st paramater
+  * @n: 2nd parameter
+  * Return: alway s, om success
   */
 
 char *_memset(char *s, char b, unsigned int n)
