@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <main.h>
+#include "main.h"
 /**
 *create_array - the function name
 *@size: the size of the array
@@ -15,7 +15,7 @@ unsigned int length;
 ptArr = malloc(size * sizeof(char));
 for (length = 0; length < size; length++)
 {
-ptArr[count] = c;
+ptArr[length] = c;
 }
 return (ptArr);
 }
