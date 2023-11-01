@@ -21,7 +21,7 @@ if (ptArr == NULL)
 {
 return (NULL);
 }
-for ( i = 0; i < size; i++)
+for (i = 0; i < size; i++)
 {
 ptArr[i] = c;
 }
