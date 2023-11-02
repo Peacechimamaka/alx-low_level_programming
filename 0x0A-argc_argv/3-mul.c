@@ -15,7 +15,11 @@ int main(int argc, char *argv[])
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
 	mul = num1 * num2;
-	if (argc == 3)
+	if (argc == 1)
+	{
+		printf("Error\n");
+	}
+	else if (argc == 3)
 	{
 		printf("%d\n", mul);
 	}
