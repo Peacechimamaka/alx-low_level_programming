@@ -2,7 +2,7 @@
 #include <stdarg.h>
 /**
  * sum_them_all - function that sums all numbers
- *@n:parameter
+ *@n: parameter
  *Return: result
  */
 int sum_them_all(const unsigned int n, ...)
