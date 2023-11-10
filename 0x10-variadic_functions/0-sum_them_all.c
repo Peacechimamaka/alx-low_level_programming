@@ -3,6 +3,7 @@
 /**
  * sum_them_all - function that sums all numbers
  *@n: parameter
+ *@...: elipses
  *Return: result
  */
 int sum_them_all(const unsigned int n, ...)
