@@ -3,7 +3,7 @@
 
 /**
  *print_list - a function that prints a list
- *@h : the head pointer
+ *@h: the head pointer
  *
  *Return: the length of the node
  */
