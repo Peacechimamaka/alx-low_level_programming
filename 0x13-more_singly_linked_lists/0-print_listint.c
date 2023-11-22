@@ -1,9 +1,7 @@
 #include "lists.h"
-
 /**
  *print_listint - function name
- *
- *@h : the head
+ *@h: the head
  *Return: the number of node
  */
 
